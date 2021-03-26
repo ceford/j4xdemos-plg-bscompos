@@ -1,10 +1,8 @@
-# Joomla 4x Example Plugin - Article ToC
+# Joomla 4x Example Plugin - Using BS Components in Articles
 
-A plugin prepared at the Joomla 4.0 Alpha stage for 
+A plugin prepared at the Joomla 4.0 Beta8 stage for 
 developer demonstration and tutorial purposes. 
-It creates an Article Table of Contents using headings
-and a {ToC} placeholder in the article text.
-
+It supports the use of Bootstrap Components in Articles.
 
 This is not intended to be a Production plugin.
 
@@ -15,7 +13,6 @@ Joomla 4. It should not install or work on earlier Joomla versions.
 ### Installing
 
 Download the zip file and install it in Joomla 4.
-
 
 ### Documentation
 

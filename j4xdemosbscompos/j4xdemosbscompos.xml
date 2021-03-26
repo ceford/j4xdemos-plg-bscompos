@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" method="upgrade" group="content">
+	<name>plg_content_j4xdemosbscompos</name>
+	<creationDate>March 2021</creationDate>
+	<author>Clifford E Ford</author>
+	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+	<authorUrl>http://www.fford.me.uk/</authorUrl>
+	<copyright>Copyright (C) 2021 Clifford E Ford, All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>PLG_CONTENT_J4XDEMOSBSCOMPOS_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="j4xdemosbscompos">j4xdemosbscompos.php</filename>
+	</files>
+	
+	<languages folder="administrator/language">
+		<language tag="en-GB">language/en-GB/plg_content_j4xdemosbscompos.ini</language>
+		<language tag="en-GB">language/en-GB/plg_content_j4xdemosbscompos.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="help"
+					type="text"
+					label="PLG_CONTENT_J4XDEMOSBSCOMPOS_PARAMS_APPLIES_LABEL"
+					description="PLG_CONTENT_J4XDEMOSBSCOMPOS_PARAMS_APPLIES_DESC"
+					default="Articles"
+					readonly="readonly"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
