@@ -33,7 +33,7 @@ class PlgContentJ4xdemosbscompos extends CMSPlugin
 	{
 		// the context could be something other than com_content
 		// such as a module - in which case do nothing and return
-		if ($context !== 'com_content.article')
+		if (!($context == 'com_content.article' || $context == 'mod_custom.content'))
 		{
 			return;
 		}
