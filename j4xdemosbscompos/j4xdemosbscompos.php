@@ -56,7 +56,7 @@ class PlgContentJ4xdemosbscompos extends CMSPlugin
 					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.alert', '.alert');
 					break;
 				case 'button':
-					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.button', '.btn');
+					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.button', '.selector');
 					break;
 				case 'carousel':
 					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.carousel', '.selector', []);
