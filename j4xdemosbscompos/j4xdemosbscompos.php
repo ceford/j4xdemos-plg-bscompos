@@ -48,6 +48,7 @@ class PlgContentJ4xdemosbscompos extends CMSPlugin
 		preg_match($pattern, $article->text, $matches);
 
 		$classes = explode(' ', $matches[2]);
+
 		foreach ($classes as $class)
 		{
 			switch ($class)
@@ -89,7 +90,7 @@ class PlgContentJ4xdemosbscompos extends CMSPlugin
 					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.tooltip', 'a', []);
 					break;
 				case 'toast':
-					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.toast', '.selector', []);
+					\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.toast', '.toast', []);
 					break;
 				default:
 					// do nothing
